@@ -1,4 +1,5 @@
 # rulaura
+_screen **rul**er by **aura**_
 
 Terrible screen ruler that uses canny edge detection to measure horizontal and vertical spans in pixels.
 Vaguely based on the PowerToys screen measuring tooling, but scratched together in a few hours.
@@ -15,3 +16,9 @@ $ ./build.sh
 ```
 $ ./main
 ```
+
+# Requirements
+
+Obviously you'll need the dependencies to build (opencv, libcairo, X11).
+
+Needs a compositor to work correctly, otherwise the screen will be obscured by the 'background' of the overlay. (e.g. `picom`)
