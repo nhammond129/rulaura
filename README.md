@@ -22,3 +22,7 @@ $ ./main
 Obviously you'll need the dependencies to build (opencv, libcairo, X11).
 
 Needs a compositor to work correctly, otherwise the screen will be obscured by the 'background' of the overlay. (e.g. `picom`)
+
+# Demonstration
+
+![image](https://github.com/nhammond129/rulaura/assets/2228057/5e60aec0-e36e-4c33-8d58-eb281fb2fb38)
